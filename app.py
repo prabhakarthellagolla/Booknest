@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 import csv
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 @app.route('/')
 def home():
@@ -105,5 +105,5 @@ def edit_book():
 
     return redirect('/books')
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     app.run(debug=True)
